@@ -1,7 +1,8 @@
 body {
 
-    width: 1920px;
+    /* width: 1920px; */
     height: 4821px;
+    width: 100%;
 }
 
 .contactUs_container {
@@ -65,6 +66,8 @@ img {
     text-transform: uppercase;
     letter-spacing: 1.4px;
     text-align: center;
+    cursor: pointer;
+    border: none;
 }
 
 
@@ -210,6 +213,16 @@ img {
 .service_image img {
     width: 770px;
     height: 567px;
+    
+}
+
+.service_image{
+    width: 770px;
+    height: 567px;
+    background-image: url(/images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .btn1 {
@@ -219,6 +232,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: content_part;
 }
 
 .btn2{
