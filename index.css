@@ -653,7 +653,14 @@ img,
     width: 270px;
     height: 233px;
     box-shadow: 3px 6px 20px #672C2C1F;
-    background: #FFFFFF
+    background: #FFFFFF;
+    opacity: .7;
+    transition: .2s;
+}
+
+.card:hover{
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .card img {
