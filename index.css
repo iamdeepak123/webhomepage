@@ -1,8 +1,5 @@
 body {
-
-    /* width: 1920px; */
     height: 4821px;
-   
     width: 100%;
 }
 
@@ -51,7 +48,7 @@ img {
     width: 584px;
     height: 83px;
     text-align: left;
-    font-size:16px;
+    font-size: 16px;
     letter-spacing: 0px;
     color: #000000;
     font-size: 16px;
@@ -88,15 +85,12 @@ img {
     text-align: left;
     flex-wrap: wrap;
     position: relative;
-
-
 }
 
 .contactUs_container.active {
     filter: blur(20px);
     pointer-events: none;
     user-select: none;
-    
 }
 
 #popup {
@@ -113,7 +107,6 @@ img {
 #popup.active {
     visibility: visible;
     opacity: 1;
-    
 }
 
 .form_heading {
@@ -161,9 +154,7 @@ label {
 
 input:focus+label {
     top: -27px;
-
 }
-
 
 .first_name {
     width: 178px;
@@ -179,7 +170,6 @@ input:focus+label {
     height: 27px;
     position: relative;
     transition: 2s ease-in-out;
-
 }
 
 
@@ -230,7 +220,6 @@ form button {
     display: flex;
     flex-direction: column;
     caret-color: transparent;
-
 }
 
 .service_heading {
@@ -238,7 +227,6 @@ form button {
     width: 100%;
     flex-direction: column;
     justify-content: left;
-
 }
 
 .Services_heading h2 {
@@ -258,8 +246,6 @@ form button {
     margin-left: 373px;
     gap: 145px;
     margin-top: 40px;
-    
-
 }
 
 .Services_content h3 {
@@ -275,7 +261,6 @@ form button {
 .Services_content p {
     width: 584px;
     height: 83px;
-
     text-align: left;
     font-size: 16px;
     letter-spacing: 0px;
@@ -289,25 +274,73 @@ form button {
     caret-color: transparent;
 }
 
-.sliding_images_section {
-    display: flex;
-    height: 526px;
-    gap: 30px;
-    margin-left: 375px;
-    scroll-behavior: smooth;
-    flex-wrap: wrap;
-    overflow: hidden;
+.img1.add img {
+    display: none;
 }
 
-.img1{
-    overflow: hidden
+.img1.add .img1_content {
+    display: flex;
+}
+
+.img2.add img {
+    display: none;
+}
+
+.img2.add .img1_content {
+    display: flex;
+}
+
+.img3.add img {
+    display: none;
+}
+
+.img3.add .img1_content {
+    display: flex;
+}
+
+.img4.add img {
+    display: none;
+}
+
+.img4.add .img1_content {
+    display: flex;
+}
+
+.img5.add img {
+    display: none;
+}
+
+.img5.add .img1_content {
+    display: flex;
+}
+
+.sliding_images_section {
+    display: flex;
+    max-height: 527px;
+    gap: 30px;
+    margin-left: 375px;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.sliding_images_section::-webkit-scrollbar {
+    width: 0px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+    min-width: 370px;
+    height: 525px;
 }
 
 .img1,
 img,
 .img1_content {
     width: 370px;
-    height: 526px;
+    height: 525px;
     background: transparent
 }
 
@@ -318,17 +351,13 @@ img,
     flex-direction: column;
     background: #FF3147;
     border-radius: 5px;
-    
-
-
-
+    display: none;
 }
 
 .img1_content img {
     width: 57px;
     height: 57px;
     background: transparent;
-
 }
 
 .img1_content h3 {
@@ -354,7 +383,6 @@ img,
 }
 
 .img1_content a {
-
     width: 185px;
     height: 50px;
     background: #F4F4F4;
@@ -375,7 +403,27 @@ img,
     height: 10px;
     background: transparent;
     margin-left: 15px;
+}
 
+.dots {
+    margin-left: 375px;
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.dots .dot1 {
+    width: 30px;
+    height: 30px;
+    background: transparent
+}
+
+.dot2,
+.dot3 {
+    width: 8px;
+    height: 8px;
 }
 
 /* Quality Box */
@@ -398,7 +446,6 @@ img,
 }
 
 .part1 h2 {
-
     width: 206px;
     height: 24px;
     text-align: center;
@@ -477,8 +524,6 @@ img,
     margin-bottom: 80px;
 }
 
-
-
 .part2 h2 {
 
     width: 206px;
@@ -516,7 +561,6 @@ img,
 .service_image img {
     width: 770px;
     height: 567px;
-
 }
 
 .service_image {
@@ -560,15 +604,6 @@ img,
     margin-left: 30px;
 }
 
-
-
-
-
-
-
-
-
-
 .Company_container {
     height: 602px;
     width: 100%;
@@ -596,7 +631,6 @@ img,
     height: 45px;
     font-size: 45px;
     text-align: center;
-
     letter-spacing: 0px;
     color: #000000;
     text-transform: uppercase;
@@ -609,7 +643,6 @@ img,
     height: 233px;
     width: 100%;
     gap: 30px;
-
 }
 
 .card {
@@ -647,19 +680,6 @@ img,
     text-align: center;
     text-transform: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* feedback container */
@@ -710,12 +730,10 @@ img,
     align-content: center;
     margin-bottom: 24px;
 }
-
 .ownername {
     display: flex;
     height: 28px;
     margin-left: -320px;
-
 }
 
 .ownername p {
@@ -725,7 +743,6 @@ img,
     color: #FF3147;
     text-align: left;
     font-size: 20px;
-
 }
 
 .ownername h5 {
@@ -735,7 +752,6 @@ img,
     font-size: 20px;
     letter-spacing: 0px;
     color: #808080;
-
 }
 
 /* footer Container */
@@ -749,7 +765,6 @@ img,
     justify-content: center;
     align-items: center;
     caret-color: transparent;
-
 }
 
 .footer_container img {
