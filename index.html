@@ -12,14 +12,14 @@
 
 <body>
 
-    <div class="contactUs_container">
+    <div class="contactUs_container" id="blur">
         <div class="content_part">
             <h3>Award winning</h3>
             <h1>Digital marketing Agency</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur magni maxime perferendis, iure
                 incidunt ducimus sint velit aspernatur? Assumenda!
             </p>
-            <button class="contactusbtn">Contact Us</button>
+            <button class="contactusbtn" onclick="toggle()">Contact Us</button>
         </div>
 
         <div class="image_part">
@@ -29,11 +29,77 @@
     </div>
 
 
+    <div class="contact_form" id="popup">
+
+        <form action="https://getform.io/f/bkkgypeb" method="POST">
+
+            <div class="form_heading">
+                <h2>Talk to us</h2>
+            </div>
+
+            <div class="email">
+
+                <input class="email" name="Email" type="email" required>
+                <label for="">Work email*</label>
+            </div>
+
+            <div class="first_name">
+
+                <input class="first_name" name="First Name" type="text" required>
+                <label for="">First name*</label>
+            </div>
+            <div class="lastname">
+
+                <input class="lastname" name="Last Name" type="text" required>
+                <label for="">Last Name*</label>
+            </div>
+
+
+            <div class="chkbox">
+                <input type="checkbox" name="" id="">
+                <p>I agree to Fyle's terms and conditions, and provide consent to send me communication.</p>
+            </div>
+            <button>Contact Us</button>
+
+        </form>
+    </div>
 
 
 
+    <div class="Services_container">
+        <div class="Services_heading">
+            <h2>WHAT WE DO</h2>
+            <div class="Services_content">
+                <h3>Services provide for you</h3>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit
+                    fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum
+                </p>
+            </div>
+        </div>
+        <div class="service_images">
+            <div class="sliding_images_section">
 
-    <!-- <div class="Services_container"></div>-->
+                <div class="img1">
+                    <img id="imgs1" src="/images/1-2.png" alt="">
+                    <div class="img1_content">
+                        <img src="/images/icon.png" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>
+                            Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque
+
+                        </p>
+                        <a href="https://www.fylehq.com/">READ MORE <img src="/images/arrow.png" alt=""></a>
+                    </div>
+                </div>
+              
+              
+           
+                
+
+
+            </div>
+        </div>
+    </div>
 
 
     <div class="Quality_container">
@@ -87,7 +153,7 @@
             <div class="service_content">
 
                 <div class="service_image">
-                    <!-- <img id="changing_img" src="images/image.png" alt=""> -->
+
                 </div>
 
                 <div class="servicebtns">
@@ -108,7 +174,6 @@
         </div>
 
     </div>
-
 
 
     <div class="Company_container">

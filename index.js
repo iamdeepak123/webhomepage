@@ -18,7 +18,27 @@ $(document).ready(function () {
         $("#box2, #box1").removeClass("btn2");
     });
 
+    
+    $(".img1").hover(() => {
+        $("#imgs1").css("display", "none");
+        $(".img1_content").css("visibility", "visible")
+    }, ()=>{
+
+        $("#imgs1").css("display", "");
+        $(".img1_content").css("visibility", "hidden")
+    }
 
 
+
+)
 
 });
+
+function toggle() {
+    var blur = document.getElementById("blur");
+    blur.classList.toggle('active');
+    var popup = document.getElementById("popup");
+    popup.classList.toggle('active');
+    var body = document.body;
+    body.style.overflow = "hidden";
+}
