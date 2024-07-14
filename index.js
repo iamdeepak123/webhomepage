@@ -28,8 +28,6 @@ $(document).ready(function () {
         $(".img1_content").css("visibility", "hidden")
     }
 
-
-
 )
 
 });
