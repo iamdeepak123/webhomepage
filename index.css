@@ -229,6 +229,7 @@ form button {
     height: 1030px;
     display: flex;
     flex-direction: column;
+    caret-color: transparent;
 
 }
 
