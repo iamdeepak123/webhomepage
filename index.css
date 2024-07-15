@@ -15,14 +15,14 @@ body {
 }
 
 .image_part,
-img {
+.contact_img {
     width: 487px;
     height: 737px;
 }
 
 .content_part {
     width: 614px;
-    margin-bottom: 200px;
+    
 }
 
 .content_part h3 {
