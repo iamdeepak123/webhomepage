@@ -414,20 +414,39 @@ img,
     align-items: center;
 }
 
-.dots .dot1 {
-    width: 30px;
+.outer {
     height: 30px;
-    background: transparent
+    width: 30px;
+    border: 1.8px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: red;
 }
 
-.dot2,
-.dot3 {
-    width: 8px;
+.outer2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner2 {
     height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: black;
 }
 
 /* Quality Box */
-
 
 .Quality_container {
     width: 100%;
@@ -444,7 +463,6 @@ img,
     width: 100%;
     margin-bottom: 80px;
 }
-
 .part1 h2 {
     width: 206px;
     height: 24px;
