@@ -274,7 +274,7 @@ form button {
     caret-color: transparent;
 }
 
-.img1.add img {
+.img1.add #imgs1 {
     display: none;
 }
 
@@ -282,7 +282,7 @@ form button {
     display: flex;
 }
 
-.img2.add img {
+.img2.add #imgs1 {
     display: none;
 }
 
@@ -290,7 +290,7 @@ form button {
     display: flex;
 }
 
-.img3.add img {
+.img3.add #imgs1 {
     display: none;
 }
 
@@ -298,7 +298,7 @@ form button {
     display: flex;
 }
 
-.img4.add img {
+.img4.add #imgs1 {
     display: none;
 }
 
@@ -306,7 +306,7 @@ form button {
     display: flex;
 }
 
-.img5.add img {
+.img5.add #imgs1 {
     display: none;
 }
 
