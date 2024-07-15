@@ -117,7 +117,7 @@ function myScrollvalue() {
         document.getElementById("dot3a").classList.add("inner2");
 
     }
-    else if (scroll > 690 && scroll < 1600) {
+    else if (scroll > 690 && scroll < 1000) {
 
         document.getElementById("dot1").classList.add("outer2");
         document.getElementById("dot2").classList.remove("outer");
